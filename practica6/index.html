@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 6 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Automatización Industrial</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                  <h1><b>Práctica 6: Modelo OSI y TCP_IP</h1></b>
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <img class="img-fluid rounded-circle" width="50px" src="/assets/Cristobal.jpg" alt="..." />
+                        <div class="ms-2">
+                            <div class="fw-bold">Cristobal Lopez Apango</div>
+                            <div class="text-muted">Ing. Mecatrónica</div>
+                        </div>
+                            <img class="img-fluid rounded-circle" width="50px" src="/assets/agustin.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">AHUMADA RAMIREZ AGUSTIN ALBERTO</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
+                            
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Primavera2024</div>
+                        
+                    </header>
+                </div>
+                
+            </section>
+            <div class="container">
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <body>
+                    <h1>Modelos de Referencia en Redes: OSI y TCP/IP</h1>
+                  
+                    <h2>Modelo OSI</h2>
+                    <p>El Modelo de Referencia OSI (Interconexión de Sistemas Abiertos) fue creado por la Organización Internacional de Normalización (ISO) para estandarizar la comunicación entre sistemas abiertos. Este modelo define siete capas, cada una con funciones específicas, siguiendo principios como la abstracción adecuada y la función claramente definida. Aunque el modelo OSI no especifica los protocolos exactos a utilizar en cada capa, establece las funciones que cada una debe realizar. A pesar de su amplio uso, los protocolos asociados han quedado en desuso en la actualidad.</p>
+                  
+                    <h3>Explicación de las Capas</h3>
+                    <ul>
+                      <li><strong>Capa Física:</strong> Garantiza la transmisión correcta de bits a través de un canal de comunicación.</li>
+                      <li><strong>Capa de Enlace de Datos:</strong> Convierte el medio de transmisión en una línea libre de errores y controla el flujo de datos.</li>
+                      <li><strong>Capa de Red:</strong> Controla la operación de la subred y determina cómo se encaminan los paquetes.</li>
+                      <li><strong>Capa de Transporte:</strong> Acepta datos de la capa superior, los divide en unidades más pequeñas si es necesario y garantiza su correcta entrega al destino.</li>
+                      <li><strong>Capa de Sesión:</strong> Facilita el establecimiento de sesiones entre usuarios en diferentes máquinas.</li>
+                      <li><strong>Capa de Presentación:</strong> Se encarga de la sintaxis y semántica de la información transmitida, facilitando la interoperabilidad entre sistemas con diferentes representaciones de datos.</li>
+                      <li><strong>Capa de Aplicación:</strong> Incluye una variedad de protocolos utilizados por los usuarios con frecuencia, como HTTP para la web y otros para transferencia de archivos y correo electrónico.</li>
+                    </ul>
+                  
+                    <h2>Modelo TCP/IP</h2>
+                    <p>El modelo TCP/IP se desarrolló para ARPANET e Internet, basándose en los protocolos TCP e IP. Este modelo se centra en la flexibilidad y la supervivencia de la red, permitiendo la conexión de múltiples redes sin problemas. A diferencia del modelo OSI, el TCP/IP no incluye capas explícitas para sesión y presentación, dejando estas funciones a discreción de las aplicaciones individuales.</p>
+                  
+                    <h3>Explicación de las Capas</h3>
+                    <ul>
+                      <li><strong>Capa de Enlace:</strong> Establece las conexiones físicas entre dispositivos de red, como hosts, routers y switches.</li>
+                      <li><strong>Capa de Interred:</strong> Permite el envío de paquetes a través de cualquier red y su llegada independiente al destino, gestionando el enrutamiento y la congestión.</li>
+                      <li><strong>Capa de Transporte:</strong> Facilita la comunicación entre entidades pares en nodos de origen y destino, definiendo los protocolos TCP y UDP.</li>
+                      <li><strong>Capa de Aplicación:</strong> Deja las funciones de sesión y presentación a las aplicaciones individuales, simplificando la arquitectura y reduciendo la complejidad.</li>
+                    </ul>
+                    <center><img src="/practica6/files/osi.jpg" alt=""></center>
+                  
+                  </body>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
